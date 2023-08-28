@@ -1,0 +1,15 @@
+.grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+}
+image {
+  width: 50%;
+}
+
+article {
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  width: auto;
+}
