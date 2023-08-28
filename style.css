@@ -1,10 +1,15 @@
+body {
+  max-width: 1400px;
+}
 .grid {
   display: grid;
   grid-template-columns: auto auto auto;
   gap: 10px;
+  overflow: hidden;
 }
-image {
-  width: 50%;
+img {
+  max-width: 300px;
+  max-height: 300px;
 }
 
 article {
@@ -12,4 +17,11 @@ article {
   border-color: black;
   border-width: 1px;
   width: auto;
+  width: 400px;
+  height: 550px;
+  padding-left: 10px;
+}
+
+p {
+  margin: 0;
 }
